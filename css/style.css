@@ -285,6 +285,7 @@ input[type=submit] {
         width: 100%;
         max-width: 100%;
         text-align: center;
+        justify-content: space-around;
         /* or inline-flex */
     }
 
@@ -326,8 +327,76 @@ align-items: center;
 justify-content: center;
 }
 
+.work{
+    width:100%;
+    max-width: 100%;
+}
 
 
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #masthead{
+
+        position: relative;
+        padding:1px;
+    }
+
+    #main-container{
+
+        padding-top: 1px;
+
+    }
+
+    #logo {
+
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        clear:both;
+
+    }
+
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        /* or inline-flex */
+    }
+
+ a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#main-section{
+
+    clear:both;
+    width:100%;
+    max-width: 100%;
+}
+
+#auth-image{
+
+    width:100%;
+}
+.social-media{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.sidebar{
+float:left;
+max-width: 100%;
+}
 }
 
 
