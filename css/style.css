@@ -262,6 +262,7 @@ input[type=submit] {
 
         position: relative;
         padding:1px;
+
     }
 
      #main-container{
@@ -287,10 +288,16 @@ input[type=submit] {
         /* or inline-flex */
     }
 
-    a {
+    nav a {
     align-items: center;
     display: flex;
-    width: 100%;
+    justify-content: center;
+}
+
+ a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #main-section{
@@ -313,9 +320,13 @@ float:left;
 max-width: 100%;
 }
 
-.social{
-    display: inline-block;
+.social-media{
+    display: flex;
+align-items: center;
+justify-content: center;
 }
+
+
 
 }
 
